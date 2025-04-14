@@ -12,7 +12,6 @@ import friends4 from './assets/friends4.png';
 import ny from './assets/ny.png';
 import Header from './Header';
 
-// Intersection Observer for fade-in animations
 function useIntersectionObserver(options = {}) {
   const [elements, setElements] = useState([]);
   const [entries, setEntries] = useState([]);

@@ -65,13 +65,12 @@ body, html {
   color: #a5f3fc;
 }
 
-/* Typing and Blinking Animations */
 @keyframes typing {
   from {
     width: 0;
   }
   to {
-    width: 100%; /* Reveal the entire text */
+    width: 100%; 
   }
 }
 
@@ -350,7 +349,6 @@ body, html {
   color: #34d399;
 }
 
-/* Contact Section */
 .portfolio-contact {
   background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   color: white;
@@ -383,7 +381,6 @@ body, html {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
 .portfolio-footer {
   text-align: center;
   padding: 20px;
@@ -391,7 +388,6 @@ body, html {
   color: #fff;
 }
 
-/* Tech Stack */
 .tech-stack {
   display: flex;
   gap: 10px;
@@ -415,7 +411,6 @@ body, html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Social Links */
 .social-links {
   display: flex;
   justify-content: center;
@@ -450,7 +445,6 @@ body, html {
   bottom: -40px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .portfolio-header h1 {
     font-size: 2rem;
@@ -508,8 +502,7 @@ body, html {
   }
 }
 
-/* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Adjust based on your navbar height */
+  scroll-padding-top: 80px; 
 }
