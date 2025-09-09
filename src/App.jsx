@@ -83,7 +83,7 @@ function App() {
             • Object-Oriented Programming<br />
             • Full-Stack Web Development<br />
             <br />
-            When I'm not coding, you'll find me on the basketball court, exploring new restaurants, or creating memories
+            In my free time, I love to play basketball, exploring new restaurants, and hanging out 
             with friends and family around the city!
           </p>
         </div>
@@ -165,7 +165,7 @@ function App() {
         <div className="experience-timeline">
           <div className="experience-item">
             <h3>Software Engineer Co-op</h3>
-            <p>Barrett Distribution Centers (January 2024 - Present)</p>
+            <p>Barrett Distribution Centers (January 2025 - August 2025)</p>
             <ul>
               <li>
                 Developing scalable logistics solutions using modern software engineering practices
@@ -216,7 +216,7 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="portfolio-section portfolio-contact animate-on-scroll">
         <h2>Let's Connect!</h2>
-        <p>I'm always open to new opportunities and collaborations</p>
+        <p>Feel free to reach out here!</p>
         
         <div className="social-links">
           <a

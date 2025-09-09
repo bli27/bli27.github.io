@@ -5,7 +5,7 @@ function Header() {
       <header id="header" className="portfolio-header">
         <h1>Hi! My name is Bryan. Welcome to my portfolio! 👨‍💻</h1>
         <p className="portfolio-tagline">
-          I am a second-year at Northeastern University studying Computer Science and Business Administration.
+          I am a third-year at Northeastern University studying Computer Science and Business Administration.
         </p>
       </header>
     );
