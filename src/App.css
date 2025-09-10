@@ -257,17 +257,36 @@ body, html {
 }
 
 /* Projects Section */
+.portfolio-section#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .project-card {
   background: white;
   border-radius: 15px;
-  padding: 30px;
-  margin: 20px auto;
-  max-width: 900px;
+  padding: 25px 20px;
+  margin: 0;
+  max-width: 350px;
   width: 100%;
+  flex: 1;
+  min-width: 300px;
   box-sizing: border-box;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   border: 1px solid #e2e8f0;
+  text-align: center;
 }
 
 .project-card:hover {
@@ -277,18 +296,28 @@ body, html {
 
 .project-card h3 {
   color: #1e3a8a;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.project-card p {
+  text-align: center;
+  line-height: 1.5;
   margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #4a5568;
 }
 
 .project-card a {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 25px;
+  margin-top: 15px;
+  padding: 8px 20px;
   background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 20px;
+  font-size: 0.9rem;
   transition: all 0.3s ease;
 }
 
@@ -390,18 +419,18 @@ body, html {
 
 .tech-stack {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   justify-content: center;
-  margin: 15px 0;
+  margin: 12px 0;
   flex-wrap: wrap;
 }
 
 .tech-stack span {
   background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
   color: white;
-  padding: 5px 15px;
-  border-radius: 15px;
-  font-size: 0.9rem;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
@@ -493,12 +522,20 @@ body, html {
 
   .about-me-container,
   .collage-container,
-  .experience-timeline {
+  .experience-timeline,
+  .projects-container {
     padding: 0 15px;
   }
 
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .project-card {
-    margin: 20px 15px;
+    margin: 10px 0;
+    max-width: 100%;
+    min-width: auto;
   }
 }
 

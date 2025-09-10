@@ -10,6 +10,7 @@ import friends2 from './assets/friends2.png';
 import friends3 from './assets/friends3.png';
 import friends4 from './assets/friends4.png';
 import ny from './assets/ny.png';
+import minesweeper from './assets/minesweeper.png';
 import Header from './Header';
 
 function useIntersectionObserver(options = {}) {
@@ -74,8 +75,10 @@ function App() {
             className="about-me-image"
           />
           <p className="about-me-text">
-            I am a passionate Software Engineer currently on my first co-op at Barrett Distribution Centers.
-            I love learning new things especially leveraging technology to create impactful solutions that benefit those around me. Through my academic
+            This past summer I was Software Engineer Co-op at a small third party logistics company called Barrett 
+            Distribution Centers where I worked on a modern inventory management portal to handle order managements,
+            build order tagging, role-based access controls, and API integrations on AWS. 
+            I love learning new things especially using technology to create impactful solutions that benefit my community. Throughout my academic
             journey, I've developed strong foundations in:
             <br /><br />
             • Algorithms & Data Structures<br />
@@ -106,56 +109,52 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="portfolio-section animate-on-scroll">
         <h2>Featured Projects</h2>
-        <div className="project-card">
-          <h3>Personal Portfolio Website</h3>
-          <p>
-            A modern, responsive portfolio website built with React and Vite. Features smooth animations,
-            responsive design, and optimized performance. Implements best practices in web development
-            and modern UI/UX principles.
-          </p>
-          <div className="tech-stack">
-            <span>React</span>
-            <span>Vite</span>
-            <span>CSS3</span>
+        <div className="projects-container">
+          <div className="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A modern, responsive portfolio website built with React and Vite featuring smooth animations, showcasing my past experiences and 
+              projects.
+            </p>
+            <div className="tech-stack">
+              <span>React</span>
+              <span>Vite</span>
+              <span>CSS</span>
+            </div>
+            <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
           </div>
-          <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
 
-        <div className="project-card">
-          <h3>Critiqify</h3>
-          <p>
-            Developed a video presentation platform for recording and analyzing video presentations while also helping users prepare for interviews.
-            Implemented features for self-critique and feedback, utilizing modern web technologies
-            and API integrations.
-          </p>
-          <div className="tech-stack">
-            <span>React</span>
-            <span>Supabase</span>
-            <span>JavaScript</span>
-            <span>HTML</span>
-            <span>TypeScript</span>
+          <div className="project-card">
+            <h3>Critiqify</h3>
+            <p>
+              A video presentation platform that helps users practice interviews through recording, analysis, and feedback features using modern web technologies.
+            </p>
+            <div className="tech-stack">
+              <span>React</span>
+              <span>Supabase</span>
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>TypeScript</span>
+            </div>
+            <a href="https://critiqify.netlify.app/" target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
           </div>
-          <a href="https://critiqify.netlify.app/" target="_blank" rel="noopener noreferrer">
-            View Project
-          </a>
-        </div>
 
-        <div className="project-card">
-          <h3>E-Commerce Website</h3>
-          <p>
-            Built a responsive e-commerce platform with modern features including product filtering,
-            shopping cart functionality, and secure payment integration.
-          </p>
-          <div className="tech-stack">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+          <div className="project-card">
+            <h3>Minesweeper</h3>
+            <p>
+              A classic Minesweeper game with customizable difficulty levels, safety flags, and an intuitive interface for engaging grid-based gameplay.
+            </p>
+            <div className="tech-stack">
+              <span>Java</span>
+            </div>
+            <a href={minesweeper} target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
           </div>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            View Project
-          </a>
         </div>
       </section>
 
@@ -168,13 +167,17 @@ function App() {
             <p>Barrett Distribution Centers (January 2025 - August 2025)</p>
             <ul>
               <li>
-                Developing scalable logistics solutions using modern software engineering practices
+              Launched a modern portal to manage $500M of inventory for  20+ companies and vendors, developing order tagging and filtering features to streamline order management and operation
               </li>
               <li>
-                Implementing automation systems to improve operational efficiency
+                Built role-based access controls by managing user permissions to display editable fields based on CRUD permissions within the orders management 
+
               </li>
               <li>
-                Collaborating with cross-functional teams to deliver high-quality software solutions
+                Integrated with RESTful APIs hosted on AWS infrastructure, handling complex order update workflows across multiple services 
+              </li>
+              <li>
+              Collaborated in an Agile environment, actively participating in weekly standups and backlog refinement meetings to discuss priorities, track progress, and deliver improvements.
               </li>
             </ul>
           </div>
