@@ -75,10 +75,10 @@ function App() {
             className="about-me-image"
           />
           <p className="about-me-text">
-            This past summer I was Software Engineer Co-op at a small third party logistics company called Barrett 
+            This past summer, I was Software Engineer Co-op at a small third-party logistics company called Barrett 
             Distribution Centers where I worked on a modern inventory management portal to handle order managements,
             build order tagging, role-based access controls, and API integrations on AWS. 
-            I love learning new things especially using technology to create impactful solutions that benefit my community. Throughout my academic
+            I love learning new things, especially using technology to create impactful solutions that benefit my community. Throughout my academic
             journey, I've developed strong foundations in:
             <br /><br />
             • Algorithms & Data Structures<br />
